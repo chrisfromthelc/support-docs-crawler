@@ -14,7 +14,7 @@ NEWSPIDER_MODULE = 'support_docs_crawler.spiders'
 
 ITEM_PIPELINES = { 'support_docs_crawler.pipelines.MongoPipeline': 10 }
 
-MONGO_URI = 'mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&ssl=false'
+MONGO_URI = 'MONGO AUTHENTICATION URI HERE'
 MONGODB_COLLECTION = 'support_docs'
 MONGO_DATABASE = 'support_docs'
 
